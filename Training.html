@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Training</title>
+    <link rel="stylesheet" href="./index.css/dropdown.css">
+    <link rel="stylesheet" href="./index.css/Index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head> 
+<body>
+    <div class="nav-bar">
+        <div class="logo">
+        <img src="Innkeeper logo.jpg" alt="logo" width="100px" height="100px">
+        </div>
+
+    <div class="menu-bar" id="menubar"> 
+
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <button class="dropbtn"><a href="#" class="nav-link">Courses</a>
+                            <div class="dropdown-content">
+                                <a href="#">Accounting</a>
+                                <a href="#">Business Admin</a>
+                                <a href="#">Auditing</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav> 
+        <script>
+            let menubar = document.getElementById["menubar"];
+            let menuicon = document.getElementById["memuicon"];
+
+            menuicon.onclick = function[]{
+                menubar.classlist.toggle["open-menu"]
+            }
+
+            
+        </script>                 
+    </div>
+    
+    <div class="btn">
+        <button>LOGIN</button>
+        <button>SIGN UP</button>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i> 
+
+</body>
+</html>

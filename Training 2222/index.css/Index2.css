@@ -1,0 +1,11 @@
+{
+
+    .container{ 
+        width: 100px;
+        height: 100vh;
+        background-image: url(image/Innkeeper);
+        background-size: cover;
+        background-position: center;
+
+    }
+}
